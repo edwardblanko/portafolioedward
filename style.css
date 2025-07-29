@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0eeee;
+}
+
+header {
+  background-color: #22eee4f8;
+  color: rgb(20, 13, 13);
+  padding: 1em
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: rgb(226, 22, 22);
+  text-decoration: none;
+  
+}
+
+.perfil {
+  text-align: center;
+  padding: 1rem;
+}
+
+.perfil img {
+  width: 150px;
+  border-radius: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+<img src="img/magico.jpg" alt="Imagen del juego" class="juego-img">
